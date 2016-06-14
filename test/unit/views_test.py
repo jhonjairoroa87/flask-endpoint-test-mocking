@@ -80,7 +80,7 @@ class TestViews(unittest.TestCase):
                 self.assertEqual(type(group_element[group_field_name]), group_fields[group_field_name],
                                  "the group element type should be '%s'" % group_fields[group_field_name])
 
-     @mock.patch('utils.meetup_utils.MeetupUtils.get_all_groups', return_value=_get_all_groups_mock_return)
+    @mock.patch('utils.meetup_utils.MeetupUtils.get_all_groups', return_value=_get_all_groups_mock_return)
     def get_groups_test(self, get_all_groups_mock):
         """
         Validate the values returned by the /get_groups endpoint
