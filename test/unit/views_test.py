@@ -26,7 +26,7 @@ class TestViews(unittest.TestCase):
 
     def get_index_test(self):
         """
-        Validate the values returned by the /get_groups endpoint
+        Validate the values returned by the / endpoint
         """
         response = self.app.get('/')
         self.assertEqual(response.status_code, 200)
