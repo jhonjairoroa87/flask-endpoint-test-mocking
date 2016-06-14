@@ -15,7 +15,7 @@ Run the following command
 `python runserver.py`
 
 ## Verifying the application is up
-Call one of the following url in your browser:
+Call one of the following urls in your browser:
  - http://0.0.0.0:5000/
  - http://0.0.0.0:5000/get_groups
 
