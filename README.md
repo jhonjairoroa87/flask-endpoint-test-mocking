@@ -14,6 +14,11 @@ Example of how mocking is implemented when calling flask endpoints
 Run the following command
 `python runserver.py`
 
-### Testing the application
+## Verifying the application is up
+Call one of the following url in your browser:
+ - http://0.0.0.0:5000/
+ - http://0.0.0.0:5000/get_groups
+
+## Testing the application
 Run the following command
 `nosetests -sv`
